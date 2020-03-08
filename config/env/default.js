@@ -2,7 +2,7 @@
 
 module.exports = {
   app: {
-    title: 'MEANcore - MeanStack Web Projects!',
+    title: 'MEDICAL PRICER',
     name: process.env.APP_NAME || 'meancore',
     description: 'Applications running on mean stack',
     keywords: 'mongodb, express, angular2+, typescript, node.js, mongoose, passport',

@@ -1,3 +1,6 @@
+Medical Pricer is built on the MEANCORE base platform.
+To start and build, apply the following commands outlined below.
+
 [![MEANcore Logo](https://github.com/mrdav30/MEANcore/blob/master/client/assets/images/logo.png) MEANcore](https://github.com/mrdav30/MEANcore) 
 
 [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/MEANcore/community)
@@ -55,7 +58,7 @@ IMAGE_BASE_URL='/image-uploads'
 IMAGE_STORAGE='./_content/image-uploads/'
 TWITTER_HANDLE=''
 MONGO_SEED_LOG_RESULTS=true
-META_TITLE_SUFFIX=' | MEANcore'
+META_TITLE_SUFFIX=' | MEDICAL PRICER'
 
 SESSION_SECRET='MEANCORE'
 SESSION_KEY='meancore-key'
@@ -225,7 +228,7 @@ Development, build and quality processes are based on [angular-cli](https://gith
 - [PngQuant](https://pngquant.org/)
 
 ## Contributing
-Pull requests are welcome from the community! Just be sure to read the [contributing](https://github.com/mrdav30/MEANcore/blob/master/CONTRIBUTING.MD) doc to get started.
+Pull requests are welcome from the community! Just be sure to read the [contributing](https://github.com/mrdav30/MEANcore/blob/master/CONTRIBUTING.MD) doc to Create Account.
 
 ## Credits
 Special thanks to the [MEAN.JS](https://github.com/meanjs/mean) team for the hard work they put into their project.  I used their base for many projects over the years and learned a lot from what they accomplished.

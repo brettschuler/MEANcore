@@ -1,5 +1,5 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-navbar sticky-top">
-  <a class="navbar-brand" routerLink="{{appDefaultRoute}}"><img class="img-fluid mr-2" src="{{appLogo}}" />MEANcore</a>
+  <a class="navbar-brand" routerLink="{{appDefaultRoute}}"><img class="img-fluid mr-2" src="{{appLogo}}" />MEDICAL PRICER</a>
   <button class="navbar-toggler" type="button" (click)="isNavbarCollapsed = !isNavbarCollapsed"
     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -33,10 +33,10 @@
       </li>
       <li *ngIf="!currentUser && showLoginNav" class="nav-item">
         <a routerLink="/sign-in" routerLinkActive="btn-secondary" rel="nofollow" class="btn btn-outline-dark mr-2">Login</a>
-        <a routerLink="/sign-up" routerLinkActive="btn-secondary" rel="nofollow" class="btn btn-outline-dark">Get Started</a>
+        <a routerLink="/sign-up" routerLinkActive="btn-secondary" rel="nofollow" class="btn btn-outline-dark">Create Account</a>
       </li>
       <li *ngIf="currentUser" class="nav-item">
-        <a routerLink="/profile" rel="nofollow" class="btn mr-2 user-avatar">         
+        <a routerLink="/profile" rel="nofollow" class="btn mr-2 user-avatar">
           <img [(src)]="currentUserAvatar" *ngIf="currentUserAvatar">
           <i class="mr-2 icon-user" *ngIf="!currentUserAvatar"></i>
         </a>

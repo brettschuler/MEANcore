@@ -2,14 +2,81 @@
   <div *ngIf="!isLoggedIn">
     <div class="card">
       <div class="card-title">
-        <h3>MEANcore Applications</h3>
+        <h3>MEDICAL PRICER</h3>
       </div>
-      <div class="card-body">Congrats! You've configured and run the sample application.</div>
+      <div class="card-body">Congrats! WELCOME to MEDICAL PRICER</div>
     </div>
   </div>
   <div *ngIf="isLoggedIn">
     <div class="card">
-      <div class="card-body">Nice, you logged in!</div>
+      <div class="card-body"><h2>Welcome to Medical Pricer, your logged in!</h2></div>
+    <h3>How much will my heart procedure cost?</h3>
+<div class="form-group">
+      <label for="cardiac">Choose cardiac procedure with code and non facility and facility fee:</label>
+
+<select class="form-control" id="cardiac">
+  <option value="Right heart catheterization">  Right heart catheterization	93451	$798 	$137 </option>
+  <option value="Left heart catheterization">  Left heart catheterization	93452	$887 	$249 </option>
+  <option value="Right and left heart catheterization">  Right and left heart catheterization	93453	$1,151 	$335 </option>
+  <option value="Coronary angiography">  Coronary angiography	93454	$896 	$253 </option>
+  <option value="Coronary angiography with bypass grafts">  Coronary angiography with bypass grafts	93455	$1,032 	$295 </option>
+  <option value="Coronary angiography with right heart catheterization">  Coronary angiography with right heart catheterization	93456	$1,134 	$328 </option>
+  <option value="Coronary angiography and bypass grafts, with right heart catheterization">  Coronary angiography and bypass grafts, with right heart catheterization	93457	$1,268 	$369 </option>
+  <option value="Coronary angiography with left heart catheterization">  Coronary angiography with left heart catheterization	93458	$1,063 	$312 </option>
+  <option value="Coronary angiography and bypass grafts, with left heart catheterization">  Coronary angiography and bypass grafts, with left heart catheterization	93459	$1,168 	$353 </option>
+  <option value="Coronary angiography with right and left heart catheterization">  Coronary angiography with right and left heart catheterization	93460	$1,276 	$395 </option>
+  <option value="Coronary angiography with bypass grafts, right and left heart catheterization">  Coronary angiography with bypass grafts, right and left heart catheterization	93461	$1,445 	$437 </option>
+  <option value="Left heart access via transseptal or transapical puncture">  Left heart access via transseptal or transapical puncture	93462	$220 	$220 </option>
+  <option value="Pharmacological agent administration with hemodynamic assessment">  Pharmacological agent administration with hemodynamic assessment	93463	$102 	$102 </option>
+  <option value="Physiologic exercise study with hemodynamic assessment">  Physiologic exercise study with hemodynamic assessment	93464	$254 	$90 </option>
+  <option value="Placement of flow directed catheter (eg, Swan-Ganz) for monitoring">  Placement of flow directed catheter (eg, Swan-Ganz) for monitoring	93503	$0 	$92 </option>
+  <option value="Endomyocardial biopsy">  Endomyocardial biopsy	93505	$720 	$231 </option>
+  <option value="Right heart catheterization for congenital cardiac anomalies">  Right heart catheterization for congenital cardiac anomalies	93530	$0 	$215 </option>
+  <option value="Combined right & retrograde left heart cath for congenital cardiac anomalies">  Combined right & retrograde left heart cath for congenital cardiac anomalies	93531	$0 	$447 </option>
+  <option value="Combined right & transseptal left heart cath through intact septum for congenital cardiac anomalies">  Combined right & transseptal left heart cath through intact septum for congenital cardiac anomalies	93532	$0 	$558 </option>
+  <option value="Combined right & transseptal left heart cath through existing septum opening for congenital cardiac anomalies">  Combined right & transseptal left heart cath through existing septum opening for congenital cardiac anomalies	93533	$0 	$372 </option>
+  <option value="Indicator dilution study with cardiac output (separate procedure)">  Indicator dilution study with cardiac output (separate procedure)	93561	$0 	$47 </option>
+  <option value="Indicator dilution study; subsequent measurement of cardiac output">  Indicator dilution study; subsequent measurement of cardiac output	93562	$0 	$38 </option>
+  <option value="Injection/imaging for coronary angiography with cath for congenital anomaly">  Injection/imaging for coronary angiography with cath for congenital anomaly	93563	$61 	$61 </option>
+  <option value="Injection/imaging for bypass graft angiography with cath for congenital anomaly">  Injection/imaging for bypass graft angiography with cath for congenital anomaly	93564	$64 	$64 </option>
+  <option value="Injection/imaging for left heart angiography with cath for congenital anomaly">  Injection/imaging for left heart angiography with cath for congenital anomaly	93565	$47 	$47 </option>
+  <option value="Injection/imaging for right heart angiography with cath for congenital anomaly">  Injection/imaging for right heart angiography with cath for congenital anomaly	93566	$158 	$49 </option>
+  <option value="Injection/imaging procedure for supravalvular aortography">  Injection/imaging procedure for supravalvular aortography	93567	$134 	$55 </option>
+  <option value="Injection/imaging procedure for pulmonary angiography">  Injection/imaging procedure for pulmonary angiography	93568	$143 	$50 </option>
+  <option value="Intravascular coronary flow reserve measurement, initial vessel">  Intravascular coronary flow reserve measurement, initial vessel	93571	$0 	$81 </option>
+  <option value="Intravascular coronary flow reserve measurement, each additional vessel">  Intravascular coronary flow reserve measurement, each additional vessel	93572	$0 	$65 </option>
+  <option value="Coronary vessel or graft imaging with IVUS or OCT, initial vessel">  Coronary vessel or graft imaging with IVUS or OCT, initial vessel	92978	$0 	$101 </option>
+  <option value="Coronary vessel or graft imaging with IVUS or OCT, each additional vessel">  Coronary vessel or graft imaging with IVUS or OCT, each additional vessel	92979	$0 	$80 </option>
+  <option value="Angioplasty, single vessel">  Angioplasty, single vessel	92920	$0 	$558 </option>
+  <option value="Angioplasty, additional branch">  Angioplasty, additional branch	92921	$0 	$0 </option>
+  <option value="Atherectomy, single vessel">  Atherectomy, single vessel	92924	$0 	$666 </option>
+  <option value="Atherectomy, additional branch">  Atherectomy, additional branch	92925	$0 	$0 </option>
+  <option value="Stent, single vessel">  Stent, single vessel	92928	$0 	$621 </option>
+  <option value="Stent, additional branch">  Stent, additional branch	92929	$0 	$0 </option>
+  <option value="Atherectomy + stent, single vessel">  Atherectomy + stent, single vessel	92933	$0 	$697 </option>
+  <option value="Atherectomy + stent, additional branch">  Atherectomy + stent, additional branch	92934	$0 	$0 </option>
+  <option value="PCI of or through bypass, any method(s)">  PCI of or through bypass, any method(s)	92937	$0 	$621 </option>
+  <option value="PCI of or through bypass, additional branch">  PCI of or through bypass, additional branch	92938	$0 	$0 </option>
+  <option value="PCI of acute MI, all interventions, single vessel">  PCI of acute MI, all interventions, single vessel	92941	$0 	$698 </option>
+  <option value="PCI of chronic total occlusion, any method(s)">  PCI of chronic total occlusion, any method(s)	92943	$0 	$698 </option>
+  <option value="PCI of chronic total occlusion, additional branch">  PCI of chronic total occlusion, additional branch	92944	$0 	$0 </option>
+  <option value="Percutaneous coronary thrombectomy, mechanical">  Percutaneous coronary thrombectomy, mechanical	92973	$0 	$186 </option>
+  <option value="Thrombolysis, coronary, by intracoronary infusion">  Thrombolysis, coronary, by intracoronary infusion	92975	$0 	$396 </option>
+  <option value="Thrombolysis, coronary, by intravenous infusion">  Thrombolysis, coronary, by intravenous infusion	92977	$56 	$0 </option>
+  <option value="Insertion of intra-aortic balloon assist device, percutaneous">  Insertion of intra-aortic balloon assist device, percutaneous	33967	$0 	$272 </option>
+  <option value="Removal of intra-aortic balloon assist device, percutaneous">  Removal of intra-aortic balloon assist device, percutaneous	33968	$0 	$35 </option>
+  <option value="Insert ventricular assist device (VAD), percutaneous, arterial access only">  Insert ventricular assist device (VAD), percutaneous, arterial access only	33990	$0 	$447 </option>
+  <option value="Insert VAD, percutaneous, arterial & venous access, transseptal">  Insert VAD, percutaneous, arterial & venous access, transseptal	33991	$0 	$656 </option>
+  <option value="Remove ventricular assist device, at separate session from insertion">  Remove ventricular assist device, at separate session from insertion	33992	$0 	$209 </option>
+  <option value="Reposition ventricular assist device, with imaging, at separate session">  Reposition ventricular assist device, with imaging, at separate session	33993	$0 	$183 </option>
+  <option value="Placement of occlusive device into vascular access site">  Placement of occlusive device into vascular access site	G0269	$0 	$0 </option>
+
+
+</select>
+<br>
+<br>
+<br>
     </div>
   </div>
+</div>
 </div>

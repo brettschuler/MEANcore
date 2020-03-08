@@ -104,7 +104,7 @@ testem.log
 ehthumbs.db
 Thumbs.db
 
-# MEANcore app and assets
+# MEAN PRICER core app and assets
 # ======================
 /content
 config/env/local.js
