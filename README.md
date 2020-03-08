@@ -1,12 +1,18 @@
 Medical Pricer is built on the MEANCORE base platform.
 To start and build, apply the following commands outlined below.
 
+Installation Steps
+
 1) npm install // install packages
 2) npm run build:dev  // compile
 3) npm run seed  // seed database
 4) npm run start:prod // launch server
 
-
+Features:
+1) Login Page
+2) Create Account
+3) Comment Form
+4) Dropdown 
 
 [![MEANcore Logo](https://github.com/mrdav30/MEANcore/blob/master/client/assets/images/logo.png) MEANcore](https://github.com/mrdav30/MEANcore) 
 
